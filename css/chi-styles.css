@@ -1,0 +1,81 @@
+.chi-container{
+    height: 500px;
+    background-color:brown;
+}
+.chi-container h1{
+    text-align: center;
+}
+
+.chi-carousel-container{
+    width:1000px;
+    margin-left: 14em;
+}
+.chi-carousel-title{
+    background-color:rgb(44, 43, 43);
+    opacity:.7;
+}
+
+.chi-top{
+    padding:1em 8em;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:cadetblue;
+}
+.chi-top-links a{
+    text-decoration: none;
+}
+.chi-top-social a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .chi-carousel-container{
+        margin: 0;
+        width: 100%;
+        
+    }
+
+}
+
+.chi-gallery-title{
+    font-size: 3em;
+    text-align: center;
+}
+.chi-gallery-title-top{
+    font-size: 2em;
+    text-align: center;
+    color: #dc0202;
+}
+.chi-img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+.chi-agenda{
+    display: flex;
+    justify-content:space-between;
+    gap: 1em;
+    padding-top: 1em;
+}
+@media screen and (max-width: 768px) {
+    .chi-agenda{
+        display: block;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .chi-agenda img{
+        margin-bottom: 1em;
+    }
+
+}
+
+.support{
+    opacity: .7;
+    padding: 1em;
+}
+.support-title{
+    color: #dc0202;
+    font-size: 2em;
+}
